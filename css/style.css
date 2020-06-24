@@ -46,20 +46,24 @@ background-color: yellow;
     text-align: center;
     padding-top: 3%;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     align-items: center;
     font-size: 30px;
     font-family: monospace;
     font-weight: bolder;
     background-color: black;
-    
 }
 .link>div>a {
     color: yellow;
 }
-#image1,#image2,#image3,#image4{
-                    padding:5px;
-                    margin:5px;
+#image2 {
+    margin-right: 160px;
+    
+}
+#image4{
+    margin-left: -30px;
+}
+
 
 }
 body{
@@ -91,11 +95,13 @@ nav>ol{
   #content{
             background-color: black;
             color: #fffa5c;
+            border-bottom:solid 5px #fffa5c;
   }
   #content>p,#about>p,#contacts>p{
             text-align: left;
             padding-left: 25%;
             font-size: 20px;
+            padding-bottom: 30px;
             
   }
   #about{
