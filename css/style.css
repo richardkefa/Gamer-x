@@ -11,7 +11,7 @@
 }
 
 header {
-    background-color: yellow;
+    background-color: #fffa5c;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -25,22 +25,23 @@ header {
     font-size: 50px;
     text-align: left;
     font-weight: bolder;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: 'Fredericka the Great', cursive;
 }
 
 #heading  {
 font-size:  40px;
 text-align: center;
-background-color: yellow;
+background-color: #fffa5c;
 
 }
 #cover {
-    height:90vh;
+    height:100vh;
     width:100%;
     background-image: url(/images/893260.jpg);
     background-size: cover;
-    margin-top: 0ex;
+    margin-top: 50px;
     padding: 0ex;
+    
 }
 .link{
     text-align: center;
@@ -49,12 +50,16 @@ background-color: yellow;
     justify-content: space-evenly;
     align-items: center;
     font-size: 30px;
-    font-family: monospace;
+    font-family: 'Permanent Marker', cursive;
     font-weight: bolder;
     background-color: black;
+    transition: ease-in-out;
+}
+.link>div>a:hover{
+            color: #39ff14;
 }
 .link>div>a {
-    color: yellow;
+    color: #fffa5c;
 }
 #image2 {
     margin-right: 160px;
@@ -82,7 +87,7 @@ nav>ol{
   nav>ol>li>a{
           font-size: 30px;
           font-weight: bolder;
-          font-family:'Tahoma' sans-serif;
+          font-family: 'Fredericka the Great', cursive;
           text-decoration:none;
           color: black;
           margin-right: 20px;
@@ -104,6 +109,16 @@ nav>ol{
             padding-bottom: 30px;
             
   }
+  #content>p>a{
+      font-size: larger;
+      font-weight: bold;
+      background-color:#fffa5c;
+      color:black;
+      text-decoration: none;
+      border-radius: 5px;
+      padding-left: 5px;
+      margin-top: 5px;
+  }
   #about{
       background-color: black;
       color: #fffa5c;
@@ -114,9 +129,27 @@ nav>ol{
       color: black;
   }
 header h1{
-    padding-left: 3%;
+    margin-left: 3%;
+    padding: 10px;
+    font-family: 'UnifrakturMaguntia', cursive;
+    background-color: black;
+    color:#fffa5c;
+    font-size:50px;
+    font-weight: bolder;
+
 }
 #content>h3,#about>h3,#contacts>h3 {
     font-size: xx-large;
     text-decoration: underline;
+    font-family: 'Permanent Marker', cursive;
+}
+
+#contacts>p>img{
+    height: 30px;
+    width: 30px;
+    padding-top: 5px;
+    padding-right: 10px;
+}
+#copy{
+    font-size: small;
 }
