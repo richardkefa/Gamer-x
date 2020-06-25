@@ -37,7 +37,7 @@ background-color: #fffa5c;
 #cover {
     height:100vh;
     width:100%;
-    background-image: url(/images/893260.jpg);
+    background-image: url(./images/893260.jpg);
     background-size: cover;
     margin-top: 50px;
     padding: 0ex;
